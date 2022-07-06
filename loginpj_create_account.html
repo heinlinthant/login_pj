@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style type="text/css">
+
+body{
+background-color:black;
+}
+
+#mainDiv {
+margin-top:55px;
+width:320px;
+height:620px;
+background-color:black;
+margin-left:auto;
+margin-right:auto;
+border:1px solid lime;
+border-radius:10px;
+box-shadow:0px 0px 9px  4px lime;
+
+}
+
+#headDiv{
+width:200px;
+height:50px;
+border:2px solid lime;
+margin-top:-30px;
+border-radius:500px;
+margin-left:auto;
+margin-right:auto;
+background-color:black;
+box-shadow:0px 0px 9px  4px lime;
+}
+h1{
+font-size:25px;
+text-align:center;
+color:lime;
+margin-top:8px;
+}
+
+#inputDiv{
+margin-top:30px;
+display:flex;
+flex-direction:column;
+
+}
+
+#input{
+margin:15px auto;
+width:250px;
+height:40px;
+border-radius:5px;
+border:2px solid lime;
+background-color:black;
+padding-left:10px;
+transition:0.5s;
+color:lime;
+}
+
+input::placeholder{
+color:lime;
+}
+
+#input:hover{
+width:280px;
+height:50px;
+font-size:17px;
+box-shadow:0px 0px 9px  4px lime;
+}
+#createbu
+{
+background-color:lime;
+width:270px;
+height:40px;
+margin-right:auto;
+margin-left:auto;
+margin-top:20px;
+display:flex;
+font-size:20px;
+border-radius:5px;
+justify-content:center;
+transition:0.5s;
+border:none;}
+
+
+#createbu:hover{
+width:170px;
+}
+
+#footertext{
+color:lime;
+text-align:center;
+}
+
+#login
+{
+background-color:lime;
+width:270px;
+height:40px;
+margin-right:auto;
+margin-left:auto;
+margin-top:2px;
+display:flex;
+font-size:20px;
+border-radius:5px;
+justify-content:center;
+transition:0.5s;
+border:none;}
+
+
+#login:hover{
+width:170px;
+}
+
+#createDiv{
+background-color:lime;
+width:280px;
+height:40px;
+margin:0 auto;
+display:flex;
+font-size:20px;
+border-radius:5px;
+justify-content:center;
+transition:0.3s;
+}
+
+#createDiv:hover{
+background-color:black;
+border:2px solid lime;
+width:170px;
+
+}
+#creata{
+margin-top:10px;
+text-decoration:none;
+color:black;
+text-align:center;
+width:100%;
+}
+#creata:hover{
+color:lime;
+}
+</style>
+<title></title>
+</head>
+<body>
+<div id="mainDiv">
+<div id="headDiv">
+<h1>Create Account</h1>
+
+</div>
+
+<div id="inputDiv">
+<input id="input" type="text" placeholder="Name">
+<input id="input" type="email" placeholder="Email" requrie="requried">
+<input id="input" type="number" placeholder="Phonenumber">
+
+<input id="input" type="text" placeholder="Password">
+<input id="input" type="text" placeholder="Retype password">
+<input id="createbu" type="submit" value="Create Account">
+<p id="footertext">Already have an account?</p>
+</div>
+<div id="createDiv">
+  <a href="loginpj_login_account.html" id="creata">Login</a>
+  </div>
+</div>
+</body>
+</html>
